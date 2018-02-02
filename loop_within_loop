@@ -1,10 +1,10 @@
 var count = 0
 var count_start_x = width/2
 var count_start_y = height/2
-while (count < width) {
+while (count < 100) {
   rect(count_start_x,count_start_y,count,count);
   noFill();
   count_start_x -= 10
   count_start_y -= 10
-  count += 10
+  count += 20
 }
