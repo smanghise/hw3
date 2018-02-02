@@ -1,4 +1,4 @@
-//top half
+v//top half
 var count_width_start = width/2
 var count_width_end = width/2
 var count_height = 0
