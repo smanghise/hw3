@@ -1,7 +1,4 @@
-function setup() {
-  createCanvas(340,340);
-  background(0);
-}
+background(0)
 
 var count_height = 20
 while (count_height < height) {
@@ -13,3 +10,5 @@ while (count_height < height) {
   }
 	count_height += 30
 }
+
+
