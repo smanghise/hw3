@@ -1,1 +1,12 @@
-
+var count_width = 0
+var count_height = 0
+var count_x = width/2
+var count_y = height/2
+while (count_x < height) {
+  rect(count_x,count_y,count_width,count_height);
+  noFill();
+  count_x -= 10
+  count_y += 10
+  count_width += 20
+  count_height += 20
+}
