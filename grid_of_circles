@@ -1,1 +1,36 @@
+function setup() {
+  createCanvas(340,340);
+  background(0);
+}
 
+var count = 0
+var count_height = 20
+while (count < width) {
+  ellipse(count,count_height,20,20);
+  fill(255);
+  count += 25
+}
+
+var count = 0
+var count_height = 50
+while (count < width) {
+  ellipse(count,count_height,20,20);
+  fill(255);
+  count += 25
+}
+
+var count = 0
+var count_height = 80
+while (count < width) {
+  ellipse(count,count_height,20,20);
+  fill(255);
+  count += 25
+}
+
+var count = 0
+var count_height = 110
+while (count < width) {
+  ellipse(count,count_height,20,20);
+  fill(255);
+  count += 25
+}
