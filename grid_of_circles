@@ -3,34 +3,13 @@ function setup() {
   background(0);
 }
 
-var count = 0
 var count_height = 20
-while (count < width) {
-  ellipse(count,count_height,20,20);
-  fill(255);
-  count += 25
-}
-
-var count = 0
-var count_height = 50
-while (count < width) {
-  ellipse(count,count_height,20,20);
-  fill(255);
-  count += 25
-}
-
-var count = 0
-var count_height = 80
-while (count < width) {
-  ellipse(count,count_height,20,20);
-  fill(255);
-  count += 25
-}
-
-var count = 0
-var count_height = 110
-while (count < width) {
-  ellipse(count,count_height,20,20);
-  fill(255);
-  count += 25
+while (count_height < height) {
+  var count = 20
+  while (count < width) {
+    ellipse(count,count_height,20,20);
+    fill(255);
+    count += 25
+  }
+	count_height += 30
 }
