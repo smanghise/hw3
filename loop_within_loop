@@ -1,10 +1,19 @@
-var count = 0
-var count_start_x = width/2
-var count_start_y = height/2
-while (count < 100) {
-  rect(count_start_x,count_start_y,count,count);
-  noFill();
-  count_start_x -= 10
-  count_start_y -= 10
-  count += 20
+function draw(x) {
+  var count = 0
+  var count_start_x = x
+  var count_start_y = height/2
+  while (count < 50) {
+    rect(count_start_x,count_start_y,count,count);
+    noFill();
+    count_start_x -= 5
+    count_start_y -= 5
+    count += 10
+	}
+   
 }
+
+draw(40)
+draw(100)
+draw(160)
+draw(220)
+draw(280)
