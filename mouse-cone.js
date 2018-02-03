@@ -1,6 +1,6 @@
-var count = 0
-while (count < width) {
-  line(width/2,0,count,height);
+function draw() {
+  line(width/2,0,mouseX,mouseY);
   noFill();
-  count += 10
 }
+
+draw()
